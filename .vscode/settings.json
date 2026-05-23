@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/63928f4f-7cba-422b-b56b-f90bcd02a13d/resourceGroups/awalM-webapp_group/providers/Microsoft.Web/sites/awalM-webapp",
+    "appService.deploySubpath": "BlazorAppDemo\\BlazorNetApp"
+}

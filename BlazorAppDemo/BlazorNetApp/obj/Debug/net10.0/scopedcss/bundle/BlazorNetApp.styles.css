@@ -1,0 +1,73 @@
+@import '_content/Microsoft.Fast.Components.FluentUI/Microsoft.Fast.Components.FluentUI.bundle.scp.css';
+
+/* /Pages/Index.razor.rz.scp.css */
+fluent-card[b-b98xj2k1am] {
+    --card-height: 400px;
+    --card-width: 500px;
+    padding: 20px;
+    margin: 12px;
+}
+
+.class-override[b-b98xj2k1am] {
+    height: 163px;
+    width: 300px;
+}
+
+.state-override[b-b98xj2k1am] {
+    --card-width: 350px;
+    --card-height: 300px;
+    --elevation: 6;
+}
+
+    .state-override:hover[b-b98xj2k1am] {
+        --elevation: 12;
+    }
+
+.contents[b-b98xj2k1am] {
+    display: flex;
+    flex-direction: column;
+}
+/* /Shared/NavMenu.razor.rz.scp.css */
+
+.nav-item[b-cr0l99md44] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-cr0l99md44] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-cr0l99md44] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-cr0l99md44]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-cr0l99md44]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-cr0l99md44]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-cr0l99md44] {
+        display: none;
+    }
+
+    .collapse[b-cr0l99md44] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}

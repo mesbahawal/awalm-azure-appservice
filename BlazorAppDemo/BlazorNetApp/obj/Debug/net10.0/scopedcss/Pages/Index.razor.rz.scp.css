@@ -1,0 +1,26 @@
+fluent-card[b-b98xj2k1am] {
+    --card-height: 400px;
+    --card-width: 500px;
+    padding: 20px;
+    margin: 12px;
+}
+
+.class-override[b-b98xj2k1am] {
+    height: 163px;
+    width: 300px;
+}
+
+.state-override[b-b98xj2k1am] {
+    --card-width: 350px;
+    --card-height: 300px;
+    --elevation: 6;
+}
+
+    .state-override:hover[b-b98xj2k1am] {
+        --elevation: 12;
+    }
+
+.contents[b-b98xj2k1am] {
+    display: flex;
+    flex-direction: column;
+}

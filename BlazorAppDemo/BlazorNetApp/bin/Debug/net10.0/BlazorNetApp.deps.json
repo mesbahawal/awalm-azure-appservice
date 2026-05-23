@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "BlazorNetApp/3.7.5": {
+        "dependencies": {
+          "Microsoft.Fast.Components.FluentUI": "3.0.1"
+        },
+        "runtime": {
+          "BlazorNetApp.dll": {}
+        }
+      },
+      "Microsoft.Fast.Components.FluentUI/3.0.1": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Fast.Components.FluentUI.dll": {
+            "assemblyVersion": "3.0.23247.4",
+            "fileVersion": "3.0.23247.4"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BlazorNetApp/3.7.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Fast.Components.FluentUI/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CNl+nLNldCRTbg40tQxvsK16idzzzyt1Whmk5rTioVJdYPEBzo89ZQIk4zHTGqMq4VEsyJhFeydNkJ3Fvr66+w==",
+      "path": "microsoft.fast.components.fluentui/3.0.1",
+      "hashPath": "microsoft.fast.components.fluentui.3.0.1.nupkg.sha512"
+    }
+  }
+}
