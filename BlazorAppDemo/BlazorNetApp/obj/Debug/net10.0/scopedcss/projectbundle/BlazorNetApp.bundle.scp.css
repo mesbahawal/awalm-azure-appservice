@@ -1,31 +1,144 @@
-/* /Pages/Index.razor.rz.scp.css */
-fluent-card[b-b98xj2k1am] {
-    --card-height: 400px;
-    --card-width: 500px;
-    padding: 20px;
-    margin: 12px;
+/* /Shared/Header.razor.rz.scp.css */
+.navbar.header-navbar[b-lm6ta9qfp5] {
+    flex-grow: 0;
+    flex-wrap: nowrap;
+    border: none;
+    background-color: inherit;
+    border-radius: 0;
+    height: 3.5rem;
+    min-height: 3.5rem;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.12);
+    justify-content: flex-start;
 }
 
-.class-override[b-b98xj2k1am] {
-    height: 163px;
-    width: 300px;
+.header-navbar .navbar-toggler[b-lm6ta9qfp5] {
+    outline: none;
+    border-radius: 0;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    box-shadow: none;
+    align-self: stretch;
 }
 
-.state-override[b-b98xj2k1am] {
-    --card-width: 350px;
-    --card-height: 300px;
-    --elevation: 6;
+.header-navbar .navbar-toggler .navbar-toggler-icon[b-lm6ta9qfp5] {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-color: transparent !important;
+    height: 2rem;
+    width: 2rem;
 }
 
-    .state-override:hover[b-b98xj2k1am] {
-        --elevation: 12;
+.title[b-lm6ta9qfp5] {
+    font-size: 1.1rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+@media (max-width: 350px) {
+    .title[b-lm6ta9qfp5] {
+        font-size: inherit;
     }
-
-.contents[b-b98xj2k1am] {
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-w97gvnb2s6] {
+    position: relative;
     display: flex;
     flex-direction: column;
 }
+
+main[b-w97gvnb2s6] {
+    flex: 1;
+}
+
+.sidebar[b-w97gvnb2s6] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-w97gvnb2s6] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-w97gvnb2s6]  a, .top-row[b-w97gvnb2s6]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row[b-w97gvnb2s6]  a:hover, .top-row[b-w97gvnb2s6]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-w97gvnb2s6]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-w97gvnb2s6] {
+        display: none;
+    }
+
+    .top-row.auth[b-w97gvnb2s6] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-w97gvnb2s6]  a, .top-row[b-w97gvnb2s6]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-w97gvnb2s6] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-w97gvnb2s6] {
+        width: 300px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-w97gvnb2s6] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-w97gvnb2s6]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-w97gvnb2s6], article[b-w97gvnb2s6] {
+        padding: 2rem !important;
+    }
+}
 /* /Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-cr0l99md44] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-cr0l99md44] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-cr0l99md44] {
+    font-size: 1.1rem;
+}
+
+.oi[b-cr0l99md44] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
 
 .nav-item[b-cr0l99md44] {
     font-size: 0.9rem;
@@ -47,6 +160,7 @@ fluent-card[b-b98xj2k1am] {
         display: flex;
         align-items: center;
         line-height: 3rem;
+        white-space: nowrap;
     }
 
 .nav-item[b-cr0l99md44]  a.active {
@@ -64,7 +178,7 @@ fluent-card[b-b98xj2k1am] {
         display: none;
     }
 
-    .collapse[b-cr0l99md44] {
+    .sidebar .collapse[b-cr0l99md44] {
         /* Never collapse the sidebar for wide screens */
         display: block;
     }

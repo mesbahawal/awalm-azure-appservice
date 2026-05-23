@@ -1,15 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
-    <TargetFrameworks>net10.0</TargetFrameworks>
-    <Nullable>enable</Nullable>
+    <TargetFramework>net10.0</TargetFramework>
+    <DefaultItemExcludes>Reports\**</DefaultItemExcludes>
     <ImplicitUsings>enable</ImplicitUsings>
-    <IsPackable>true</IsPackable>
-    <AssemblyVersion>3.7.5.24178</AssemblyVersion>
-    <FileVersion>3.7.5.24178</FileVersion>
-    <InformationalVersion>3.7.5.24178</InformationalVersion>
-    <Version>3.7.5</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.Fast.Components.FluentUI" Version="3.0.*" />
+    <Compile Remove="Reports\**" />
+    <Content Remove="Reports\**" />
+    <EmbeddedResource Remove="Reports\**" />
+    <None Remove="Reports\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Data\nwind.db" />
+    <None Remove="Data\reportsData.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\nwind.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\reportsData.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="Data\nwind.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.36" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.36" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.119" />
+    <PackageReference Include="DevExpress.Blazor.Reporting.JSBasedControls" Version="24.1-*" />
+    <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="24.1-*" />
+    <PackageReference Include="DevExpress.Blazor.Reporting.Viewer" Version="24.1-*" />
   </ItemGroup>
 </Project>

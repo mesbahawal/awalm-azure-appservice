@@ -50,7 +50,9 @@
 - since we use .NET 10, check target framework version at - `<TargetFramework>net10.0</TargetFramework>` inside the `BlazorNetApp.csproj` file
 - to restore any changes done, run: `dotnet restore`
 
-## Run the app
+## Build and Run the app
+- to build the app, run: `dotnet build`
+- to publish locally the output, run: `dotnet publish -c Release -o ./publish`
 - to run the BlazorNetApp run: `dotnet run`
 
 ## Pages

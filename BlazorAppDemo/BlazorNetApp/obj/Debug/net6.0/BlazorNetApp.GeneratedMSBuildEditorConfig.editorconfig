@@ -27,29 +27,37 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Devs/AZ-204/awalm-azure-appservice/BlazorAppDemo/BlazorNetApp/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[d:/Devs/AZ-204/awalm-azure-appservice/BlazorAppDemo/BlazorNetApp/Pages/DocumentViewer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdW1lbnRWaWV3ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Devs/AZ-204/awalm-azure-appservice/BlazorAppDemo/BlazorNetApp/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+[d:/Devs/AZ-204/awalm-azure-appservice/BlazorAppDemo/BlazorNetApp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Devs/AZ-204/awalm-azure-appservice/BlazorAppDemo/BlazorNetApp/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+[d:/Devs/AZ-204/awalm-azure-appservice/BlazorAppDemo/BlazorNetApp/Pages/ReportDesigner.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0RGVzaWduZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Devs/AZ-204/awalm-azure-appservice/BlazorAppDemo/BlazorNetApp/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+[d:/Devs/AZ-204/awalm-azure-appservice/BlazorAppDemo/BlazorNetApp/Pages/ReportViewer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0Vmlld2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Devs/AZ-204/awalm-azure-appservice/BlazorAppDemo/BlazorNetApp/Shared/BrowserNotSupported.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEJyb3dzZXJOb3RTdXBwb3J0ZWQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [d:/Devs/AZ-204/awalm-azure-appservice/BlazorAppDemo/BlazorNetApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Devs/AZ-204/awalm-azure-appservice/BlazorAppDemo/BlazorNetApp/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-b98xj2k1am
+[d:/Devs/AZ-204/awalm-azure-appservice/BlazorAppDemo/BlazorNetApp/Shared/Header.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhlYWRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-lm6ta9qfp5
+
+[d:/Devs/AZ-204/awalm-azure-appservice/BlazorAppDemo/BlazorNetApp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-w97gvnb2s6
 
 [d:/Devs/AZ-204/awalm-azure-appservice/BlazorAppDemo/BlazorNetApp/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=

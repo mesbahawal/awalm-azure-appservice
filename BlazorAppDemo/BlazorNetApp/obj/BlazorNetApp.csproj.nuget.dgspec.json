@@ -5,7 +5,7 @@
   },
   "projects": {
     "D:\\Devs\\AZ-204\\awalm-azure-appservice\\BlazorAppDemo\\BlazorNetApp\\BlazorNetApp.csproj": {
-      "version": "3.7.5",
+      "version": "1.0.0",
       "restore": {
         "projectUniqueName": "D:\\Devs\\AZ-204\\awalm-azure-appservice\\BlazorAppDemo\\BlazorNetApp\\BlazorNetApp.csproj",
         "projectName": "BlazorNetApp",
@@ -13,7 +13,6 @@
         "packagesPath": "C:\\Users\\Mesbah\\.nuget\\packages\\",
         "outputPath": "D:\\Devs\\AZ-204\\awalm-azure-appservice\\BlazorAppDemo\\BlazorNetApp\\obj\\",
         "projectStyle": "PackageReference",
-        "crossTargeting": true,
         "configFilePaths": [
           "C:\\Users\\Mesbah\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -47,15 +46,35 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "DevExpress.AspNetCore.Reporting": {
+              "target": "Package",
+              "version": "[24.1.0-*, )"
+            },
+            "DevExpress.Blazor.Reporting.JSBasedControls": {
+              "target": "Package",
+              "version": "[24.1.0-*, )"
+            },
+            "DevExpress.Blazor.Reporting.Viewer": {
+              "target": "Package",
+              "version": "[24.1.0-*, )"
+            },
             "Microsoft.AspNetCore.App.Internal.Assets": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[10.0.8, )",
               "autoReferenced": true
             },
-            "Microsoft.Fast.Components.FluentUI": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[3.0.*, )"
+              "version": "[6.0.36, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.36, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.119, )"
             }
           },
           "imports": [
