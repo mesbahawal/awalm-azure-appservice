@@ -11,8 +11,9 @@
 - server runtime stack(.NET/Php/Java etc.)
 
 ## Deployment
-- connect Github
+- connect Github to use it as the deployment center
 - choose organisation, repository and branch
+- create slot to swap between staging and production version
 
 ## Networking
 - private/public access
