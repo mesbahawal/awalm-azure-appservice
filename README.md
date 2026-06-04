@@ -64,3 +64,29 @@
 - Sign in to Azure, also sign in accounts & tenants
 - right-click on the App services name (in this case, awalM-webapp) and select option "Deploy to Web App.."
 - browse and select BlazorNetApp, this will publish/deploy the files into Azure App service
+
+# Azure CLI/PowerShell
+## Variable block
+```
+let "randomIdentifier=$RANDOM*$RANDOM"
+location="East US"
+resourceGroup="msdocs-app-service-rg-$randomIdentifier"
+tag="deploy-ftp.sh"
+warurl="https://raw.githubusercontent.com/Azure-Samples/html-docs-hello-world/master/index.html"
+appServicePlan="msdocs-app-service-plan-$randomIdentifier"
+webapp="msdocs-web-app-$randomIdentifier"
+```
+## Download sample static HTML page
+`curl $warurl --output index.html`
+
+## Create a resource group.
+`az group create --name $resourceGroup --location "$location" --tag $tag`
+
+## Create an App Service plan in `FREE` tier.
+`az appservice plan create --name $appServicePlan --resource-group $resourceGroup --sku FREE`
+
+## Create a web app.
+`az webapp create --name $webapp --resource-group $resourceGroup --plan $appServicePlan`
+
+## More Information
+Azure CLI [here](https://learn.microsoft.com/en-us/azure/app-service/samples-cli)
